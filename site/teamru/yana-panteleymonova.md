@@ -1,0 +1,18 @@
+---
+title: "ЯНА ПАНТЕЛЕЙМОНОВА"
+slug: "yana-panteleymonova"
+collection-id: "5e8ddc9e8f0a19be115e6fd6"
+item-id: "5e8ddc9e8f0a19b8c95e7013"
+short-name: "ЯНА ПАНТЕЛЕЙМОНОВА"
+position: "5"
+profile-picture: "https://uploads-ssl.webflow.com/5e60f275dcb1b6b707e29886/5e60f2ef0168601b2f955afc_5e52e2af258ffe0a1a8cc7f9_5ca3925450cb2e38ea21f29b_Yana_Small.jpeg"
+full-image: "https://uploads-ssl.webflow.com/5e60f275dcb1b6b707e29886/5e60f2ef016860d461955afd_5e52e2af258ffea8448cc7f8_5ca3925b50cb2e0ebb21f2a7_Yana.jpeg"
+job-title: "адвокат"
+bio: "<p>член Адвокатской коллегии –Добрич с 2015 г.</p><p>ОБРАЗОВАНИЕ:Софийский Университет «Св. Климент Охридски»дипломировалась: в 2013 г.приобрела правоспособность: в 2014 г.</p><p>ОБЛАСТИ ПРАКТИКИ:Коммерческое и фирменное право, облигационное право, право Европейского союза,исполнительное производство, процессуальное представительство в суде и арбитраже.</p>"
+contacts: "<p>T: +359 58 605 166<br>M: +359 884 242 650<br><a href=\"mailto:mincheva@kantora.bg\">MINCHEVA@KANTORA.BG</a><br>SKYPE: ADVOKAT_YANA_MINCHEVA</p>"
+date: "2020-03-06T14:20:49.000Z"
+layout: "single-teamru.html"
+tags: "teamru"
+---
+
+
