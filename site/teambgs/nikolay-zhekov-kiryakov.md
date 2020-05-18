@@ -8,7 +8,7 @@ bio: "<p>АДВОКАТ член на Адвокатска колегия - До
   съд и арбитраж.</p>"
 position: "1"
 collection-id: 5e8ddc9e8f0a197f135e6fd7
-title: НИКОЛАЙ ЖЕКОВ КИРЯКО
+title: НИКОЛАЙ ЖЕКОВ КИРЯКОВ
 tags: teambgs
 slug: nikolay-zhekov-kiryakov
 date: 2020-03-05T12:39:08.000Z
