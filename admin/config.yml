@@ -385,12 +385,6 @@
           }
         },
         {
-          "name": "job-title",
-          "label": "Job title",
-          "widget": "text",
-          "required": false
-        },
-        {
           "label": "Body",
           "name": "body",
           "widget": "markdown",
