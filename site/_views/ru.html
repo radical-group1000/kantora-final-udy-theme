@@ -402,7 +402,7 @@ body {
             <div data-w-tab="TEAM" class="tab-pane-team w-tab-pane">
               <div class="w-dyn-list">
                 <div class="w-dyn-items w-row">
-                  <div class="collection-item w-dyn-item w-col w-col-6">
+                  {%- assign collection = collections.teamru -%}{%- for item in collection -%}<div class="collection-item w-dyn-item w-col w-col-6">
                     <div class="team-members---name"></div><img src="/static/" alt="">
                     <div class="profile-modal">
                       <div class="close-details"></div>
@@ -419,11 +419,9 @@ body {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div>{%- endfor -%}
                 </div>
-                <div class="w-dyn-empty">
-                  <div>No items found.</div>
-                </div>
+                
               </div>
             </div>
             <div data-w-tab="CAREERS" class="w-tab-pane"><img src="https://uploads-ssl.webflow.com/5e5272bf2c16e8d4ca1079c6/5e528449258ffefccc8a3513_Careers_photo.jpg" alt="">

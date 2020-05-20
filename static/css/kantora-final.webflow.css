@@ -1204,7 +1204,6 @@ a {
     display: none;
   }
   .about-us---mobile {
-    display: none;
     background-color: #777;
   }
   .services---mobile {
@@ -1844,22 +1843,6 @@ a {
     align-self: center;
   }
   #w-node-3ca98fe6bd0b-715e6fbd {
-    -ms-grid-row: span 1;
-    grid-row-start: span 1;
-    -ms-grid-row-span: 1;
-    grid-row-end: span 1;
-    -ms-grid-column: span 2;
-    grid-column-start: span 2;
-    -ms-grid-column-span: 2;
-    grid-column-end: span 2;
-  }
-  #w-node-439a41d09fff-715e6fbd {
-    -webkit-align-self: center;
-    -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center;
-  }
-  #w-node-835ba2186eb6-715e6fbd {
     -ms-grid-row: span 1;
     grid-row-start: span 1;
     -ms-grid-row-span: 1;
