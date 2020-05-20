@@ -383,10 +383,10 @@ body {
       <div id="w-node-e0142e130f1d-8c5e6fc1" data-w-id="26293e34-eee7-4166-9c61-e0142e130f1d" class="about-us---mobile">
         <div data-duration-in="300" data-duration-out="100" data-easing="ease-in-out" class="tabs---about-us w-tabs">
           <div class="tabs-menu w-tab-menu">
-            <a data-w-tab="KANTORA" class="about-tab w-inline-block w-tab-link">
+            <a data-w-tab="KANTORA" class="about-tab w-inline-block w-tab-link w--current">
               <div>OFFICE</div>
             </a>
-            <a data-w-tab="TEAM" class="about-tab w-inline-block w-tab-link w--current">
+            <a data-w-tab="TEAM" class="about-tab w-inline-block w-tab-link">
               <div>TEAM</div>
             </a>
             <a data-w-tab="CAREERS" class="about-tab w-inline-block w-tab-link">
@@ -394,27 +394,27 @@ body {
             </a>
           </div>
           <div class="tabs-content w-tab-content">
-            <div data-w-tab="KANTORA" class="w-tab-pane"><img src="https://uploads-ssl.webflow.com/5e5272bf2c16e8d4ca1079c6/5e527b52258ffe7f7d8a0170_Team_photo-min.jpg" alt="">
+            <div data-w-tab="KANTORA" class="w-tab-pane w--tab-active"><img src="https://uploads-ssl.webflow.com/5e5272bf2c16e8d4ca1079c6/5e527b52258ffe7f7d8a0170_Team_photo-min.jpg" alt="">
               <p class="big-paragraph m">KIRYAKOVI CO’ LAW FIRM JOINS THE EFFORTS OF THE LAWYERS AND JURISTS AND IS THE RESULT OF PRACTICE OF MANY YEARS STARTED IN 1994. THE EXTENSIVE EXPERIENCE AND PROFESSIONALISM, WE PUT IN OUR WORK, HAVE MADE OUR PRACTICE SUCCESSFUL.</p>
               <p class="paragraph m">We work with ambitious and young lawyers and attorneys; with those who have extensive experience and proven professionalism; with colleagues from foreign law firms. We serve corporate clients who are active in different business areas; public organizations; financial institutions; individual citizens, having an individual approach to each case and engaging in every detail of the case.<br><br>We provide complete customer protection: from legal counseling, procedural representation to successful implementation. This makes us a preferred partner with whom our clients go all the way towards achieving the desired result. Their will and success are our priority!<br></p>
               <p class="big-paragraph m">MAKE SURE YOURSELVES!</p>
             </div>
-            <div data-w-tab="TEAM" class="tab-pane-team w-tab-pane w--tab-active">
+            <div data-w-tab="TEAM" class="tab-pane-team w-tab-pane">
               <div class="w-dyn-list">
                 <div class="w-dyn-items w-row">
                   {%- assign collection = collections.teamens -%}{%- for item in collection -%}<div class="collection-item w-dyn-item w-col w-col-6">
-                    <div class="team-members---name"></div><img src="/static/" alt="">
+                    <div class="team-members---name"></div><img src="{{ item.data.profile-photo }}" alt="">
                     <div class="profile-modal">
                       <div data-w-id="21cdb49c-2ce3-e0cd-72b8-2b720812b4fd" class="close-details"></div>
                       <div class="modal"><img src="https://uploads-ssl.webflow.com/5c693ab93ca6bdf9be35644f/5c6e4355bf98b25334f5dcc5_img_207371.png" data-w-id="21cdb49c-2ce3-e0cd-72b8-2b720812b4ff" alt="" class="close-button---det">
-                        <div class="w-layout-grid grid"><img src="/static/" alt="">
+                        <div class="w-layout-grid grid"><img src="{{ item.data.profile-photo }}" alt="">
                           <div id="w-node-2b720812b502-8c5e6fc1">
-                            <div class="big-paragraph bio"></div>
-                            <div class="paragraph bio"></div>
+                            <div class="big-paragraph bio">{{ item.data.short-name }}</div>
+                            <div class="paragraph bio">{{ item.data.job-title }}</div>
                           </div>
                           <div id="w-node-2b720812b505-8c5e6fc1">
-                            <div class="w-richtext"></div>
-                            <div class="rich-text-contacts w-richtext"></div>
+                            <div class="w-richtext">{{ item.data.bio }}</div>
+                            <div class="rich-text-contacts w-richtext">{{ item.data.contacts }}</div>
                           </div>
                         </div>
                       </div>

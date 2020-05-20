@@ -403,18 +403,18 @@ body {
               <div class="w-dyn-list">
                 <div class="w-dyn-items w-row">
                   {%- assign collection = collections.teamru -%}{%- for item in collection -%}<div class="collection-item w-dyn-item w-col w-col-6">
-                    <div class="team-members---name"></div><img src="/static/" alt="">
+                    <div class="team-members---name"></div><img src="{{ item.data.profile-photo }}" alt="">
                     <div class="profile-modal">
                       <div class="close-details"></div>
                       <div class="modal"><img src="https://uploads-ssl.webflow.com/5c693ab93ca6bdf9be35644f/5c6e4355bf98b25334f5dcc5_img_207371.png" alt="" class="close-button---det">
-                        <div class="w-layout-grid grid"><img src="/static/" alt="">
+                        <div class="w-layout-grid grid"><img src="{{ item.data.profile-photo }}" alt="">
                           <div id="w-node-7d4577174a3c-fa5e6fc4">
-                            <div class="big-paragraph bio"></div>
-                            <div class="paragraph bio"></div>
+                            <div class="big-paragraph bio">{{ item.data.short-name }}</div>
+                            <div class="paragraph bio">{{ item.data.job-title }}</div>
                           </div>
                           <div id="w-node-7d4577174a3f-fa5e6fc4">
-                            <div class="w-richtext"></div>
-                            <div class="rich-text-contacts w-richtext"></div>
+                            <div class="w-richtext">{{ item.data.bio }}</div>
+                            <div class="rich-text-contacts w-richtext">{{ item.data.contacts }}</div>
                           </div>
                         </div>
                       </div>
