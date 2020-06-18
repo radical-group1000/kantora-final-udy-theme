@@ -87,7 +87,7 @@ a {
 }
 
 .services-tab.last {
-  margin-bottom: 60px;
+  margin-bottom: 100px;
 }
 
 .close-button-container {
@@ -606,7 +606,6 @@ a {
   display: flex;
   overflow: auto;
   width: 28vw;
-  padding-bottom: 180px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1010,6 +1009,18 @@ a {
 
 .tab-pane-1 {
   overflow: auto;
+}
+
+.empty-tab {
+  width: 1%;
+  height: 140px;
+  padding-right: 0px;
+  padding-left: 0px;
+  background-color: transparent;
+}
+
+.empty-tab.w--current {
+  background-color: transparent;
 }
 
 @media screen and (max-width: 991px) {
