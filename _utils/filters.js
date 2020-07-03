@@ -73,6 +73,31 @@ module.exports = function(eleventyConfig, references) {
     });
   });
 
+  eleventyConfig.addLiquidFilter('where', function(array, field, toFilter) {
+    if (!Array.isArray(toFilter)) {
+      toFilter = [toFilter];
+    }
+    if (!array) {
+      return [];
+    }
+    return array.filter(item => {
+      if (field in item.data) {
+        let value = item.data[field];
+        if (!Array.isArray(value)) {
+          value = [value];
+        }
+        for (let f of toFilter) {
+          if (value.includes(f)) {
+            return true;
+          }
+        }
+        return false;
+      } else {
+        return false;
+      }
+    });
+  });
+
   eleventyConfig.addLiquidFilter('formatDate', function(date, formatString = "yyyy-MM-dd") {
     try {
       const d = new Date(date);

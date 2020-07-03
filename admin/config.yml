@@ -53,12 +53,6 @@
               "required": false
             },
             {
-              "label": "Slug",
-              "widget": "hidden",
-              "name": "slug",
-              "default": "{{slug}}"
-            },
-            {
               "label": "Open Graph Image",
               "name": "og:image",
               "widget": "image",
@@ -118,12 +112,6 @@
           "widget": "hidden",
           "name": "tags",
           "default": "teambgs"
-        },
-        {
-          "label": "Slug",
-          "widget": "hidden",
-          "name": "slug",
-          "default": "{{slug}}"
         },
         {
           "label": "Publish Date",
@@ -267,12 +255,6 @@
           "default": "teamens"
         },
         {
-          "label": "Slug",
-          "widget": "hidden",
-          "name": "slug",
-          "default": "{{slug}}"
-        },
-        {
           "label": "Publish Date",
           "name": "date",
           "widget": "datetime"
@@ -412,12 +394,6 @@
           "widget": "hidden",
           "name": "tags",
           "default": "teamru"
-        },
-        {
-          "label": "Slug",
-          "widget": "hidden",
-          "name": "slug",
-          "default": "{{slug}}"
         },
         {
           "label": "Publish Date",
