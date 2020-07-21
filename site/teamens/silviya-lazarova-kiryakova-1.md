@@ -1,6 +1,6 @@
 ---
 bio: "<p>Attorney at Law, Member of Bar Association - <br>Varna since
-  2003<br><br>EDUCATION:<br>'St. Kliment Ohridski' Sofia
+  1995<br><br>EDUCATION:<br>'St. Kliment Ohridski' Sofia
   University<br>Graduated: in 1993<br>Acquired qualification: in
   1994<br><br>PRACTICE&nbsp;AREAS:<br>Commercial and&nbsp;Company Law,
   Insolvency, Real Estates and Construction, Banking and Financial Law,
@@ -10,9 +10,9 @@ position: "2"
 collection-id: 5e8ddc9e8f0a19a7105e6fd8
 title: SILVIYA LAZAROVA KIRYAKOVA
 tags: teamens
-slug: silviya-lazarova-kiryakova
 date: 2020-05-20T09:34:32.439Z
 layout: single-teamens.html
+slug: silviya-lazarova-kiryakova
 short-name: SILVIYA KIRYAKOVA
 job-tittle: Managing Partner
 contacts: '<p>T: +359 58 605 166<br>M: +359 886 887 888<br><a
